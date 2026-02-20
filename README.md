@@ -14,26 +14,26 @@ The following checkpoints are recommended as starting points for training your o
 
 | Model Name                                                   | Description / Source                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [**GTTS Twi Male ONNX**](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/Twi) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. |
+| [GTTS Twi Male ONNX](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/Twi) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. It was trained using the [this dataset](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts). |
 
 ## Available Datasets
 
 These datasets provide the necessary speech-text pairs required for high-quality synthesis.
 
-| Dataset Name                                                 | Description / Source                                |
-| ------------------------------------------------------------ | --------------------------------------------------- |
-| [**Asante Twi Bible Speech-Text**](https://huggingface.co/datasets/ghananlpcommunity/asante-twi-bible-speech-text) | Speech-text from Bible. |
-| [**Asante Twi Bible Speech-Text (Trigrams)**](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts) | Speech-text Bible for 3-word phrases. This trains faster but there are some pauses. |) | High-quality Twi speech-text pairs on Hugging Face. |
+| Dataset Name                                                 | Description / Source                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Asante Twi Bible Speech-Text](https://huggingface.co/datasets/ghananlpcommunity/asante-twi-bible-speech-text) | Speech-text from Bible.                                      |
+| [Asante Twi Bible Speech-Text (Trigrams)](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts) | Speech-text from Bible split into trigrams. This trains faster but there are some pauses during inference. |
 
 *Note: More checkpoints and datasets will be added as they become available.*
 
 ## Training Your Model
 
-1. Ensure your audio files are in `.wav` format (22050Hz or 16000Hz) and paired with accurate text transcriptions and publish it to hugging face as an alligned audio text dataset. See examples from the datasets section. If you want to use one of our existing datasets, then you can skip this step.
+1. Ensure your audio files are in `.wav` format (22050Hz or 16000Hz) and paired with accurate text transcriptions and publish it to hugging face as an alligned audio text dataset. See examples from the provided datasets. If you want to use one of our existing datasets, then you can skip this step.
 2. Use our ready-to-go Google Colab notebook to begin training a model from scratch or fine-tuning from one of our checkpoints:
    - 💻 **Train/Finetune a Piper TTS Model** — [Open in Colab](https://colab.research.google.com/drive/1b0KaAjK9ZyM4prUnUawDU2RZ4LBoIn8i?usp=sharing) | 🎥 [Watch the Tutorial](https://youtube.com/)
 
-Once your model is trained, share your checkpoint and a sample audio clip with us to be featured in the GhanaTTS showcase! We are looking for more checkpoints that can be used as starting points for training several languages.
+3. Once your model is trained, upload it here to see how it to our TTS server folder [here](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/) to share it with the world, and hear how it sounds [here](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS).
 
 ## Support
 

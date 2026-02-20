@@ -37,4 +37,4 @@ These datasets provide the necessary speech-text pairs required for high-quality
 
 ## Support
 
-If you have any questions or difficulty using the notebooks or datasets, please contact us at info@ghananlp.org.
+If you have any questions or difficulty using the notebooks or datasets, please contact us at mich@ghananlp.org.

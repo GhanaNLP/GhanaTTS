@@ -14,7 +14,7 @@ The following checkpoints are recommended as starting points for training your o
 
 | Model Name                                                   | Description / Source                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [GTTS Twi](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/Twi) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. It was trained using the [this dataset](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts). |
+| [GTTS Twi](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/gtts-twi) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. It was trained using the [this dataset](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts). |
 
 ## Available Datasets
 

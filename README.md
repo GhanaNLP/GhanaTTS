@@ -23,7 +23,7 @@ These datasets provide the necessary speech-text pairs required for high-quality
 | Dataset Name                                                 | Description / Source                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Asante Twi Bible Speech-Text](https://huggingface.co/datasets/ghananlpcommunity/asante-twi-bible-speech-text) | Speech-text from Bible.                                      |
-| [Asante Twi Bible Speech-Text (Trigrams)](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts) | Speech-text from Bible split into trigrams. This trains faster but there are some pauses during inference. |
+| [Asante Twi Bible Speech-Text (Trigrams)](ghananlpcommunity/twi-trigrams-speech-text-parallel) | Speech-text from Bible split into trigrams. This trains faster but there are some pauses during inference. |
 
 *Note: More checkpoints and datasets will be added as they become available.*
 

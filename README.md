@@ -14,8 +14,7 @@ The following checkpoints are recommended as starting points for training your o
 
 | Model Name                                                   | Description / Source                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [**GTTS Twi Male ONNX**](https://huggingface.co/ghananlpcommunity/gtts-twi-male_onnx/tree/main) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. |
-| [**Piper Swahili Medium**](https://huggingface.co/rhasspy/piper-voices/tree/main/sw/sw_CD/lanfrica/medium) | Base starting point for any Ghanaian language.               |
+| [**GTTS Twi Male ONNX**](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/Twi) | A useful starting point for those interested in training models for Twi or similar languages such as Fante, Abron, Nsema etc. |
 
 ## Available Datasets
 
@@ -23,8 +22,8 @@ These datasets provide the necessary speech-text pairs required for high-quality
 
 | Dataset Name                                                 | Description / Source                                |
 | ------------------------------------------------------------ | --------------------------------------------------- |
-| [**Twi Female Speech TTS**](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts) | High-quality Twi speech-text pairs on Hugging Face. |
-| [**Asante Twi Bible Speech**](https://huggingface.co/datasets/ghananlpcommunity/asante-twi-bible-speech-text) | Religious text corpus for expressive Twi synthesis. |
+| [**Asante Twi Bible Speech-Text**](https://huggingface.co/datasets/ghananlpcommunity/asante-twi-bible-speech-text) | Speech-text from Bible. |
+| [**Asante Twi Bible Speech-Text (Trigrams)**](https://huggingface.co/datasets/ghananlpcommunity/twi-female-speech-tts) | Speech-text Bible for 3-word phrases. This trains faster but there are some pauses. |) | High-quality Twi speech-text pairs on Hugging Face. |
 
 *Note: More checkpoints and datasets will be added as they become available.*
 

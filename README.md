@@ -29,7 +29,7 @@ These datasets provide the necessary speech-text pairs required for high-quality
 
 ## Training Your Model
 
-1. Ensure your audio files are in `.wav` format (22050Hz or 16000Hz) and paired with accurate text transcriptions and publish it to hugging face as an alligned audio text dataset. See examples from the provided datasets. If you want to use one of our existing datasets, then you can skip this step.
+1. Ensure your audio files are in `.wav` format (22050Hz or 16000Hz) and paired with accurate text transcriptions and publish it to hugging face as an alligned audio text dataset. See examples from the provided datasets. If you want to use one of our existing datasets [here](https://huggingface.co/collections/ghananlpcommunity/ghana-tts), then you can skip this step.
 2. Use our ready-to-go Google Colab notebook to begin training a model from scratch or fine-tuning from one of our checkpoints:
    - 💻 **Train/Finetune a Piper TTS Model** — [Open in Colab](https://colab.research.google.com/drive/1b0KaAjK9ZyM4prUnUawDU2RZ4LBoIn8i?usp=sharing) | 🎥 [Watch the Tutorial](https://youtube.com/)
 

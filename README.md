@@ -31,7 +31,7 @@ These datasets provide the necessary speech-text pairs required for high-quality
 
 1. Ensure your audio files are in `.wav` format (22050Hz or 16000Hz) and paired with accurate text transcriptions and publish it to huggingface as an alligned audio text dataset. See how to prepare your dataset and push to HF [here](https://github.com/GhanaNLP/TTS-data-preparation). If you want to use one of our existing datasets [here](https://huggingface.co/collections/ghananlpcommunity/ghana-tts), then you can skip this step.
 2. Use our ready-to-go Google Colab notebook to begin training a model from scratch or fine-tuning from one of our checkpoints:
-   - 💻 **Train/Finetune a Piper TTS Model** — [Open in Colab](https://colab.research.google.com/drive/1b0KaAjK9ZyM4prUnUawDU2RZ4LBoIn8i?usp=sharing) | 🎥 [Watch the Tutorial](https://youtube.com/)
+   - 💻 **Train/Finetune a Piper TTS Model** — [Open in Colab](https://colab.research.google.com/drive/1b0KaAjK9ZyM4prUnUawDU2RZ4LBoIn8i?usp=sharing) | 🎥 [Watch the Tutorial](https://drive.google.com/file/d/1He2I8OlmVgpSQHyxzIUabYysAn-VlM7A/view?usp=sharing)
 
 3. Once your model is trained, upload it here to see how it to our TTS server folder [here](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS/tree/main/piper-linux/voices/) to share it with the world, and hear how it sounds [here](https://huggingface.co/spaces/ghananlpcommunity/GhanaTTS).
 
